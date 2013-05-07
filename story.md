@@ -31,3 +31,31 @@
 # Delivered Unto Us
 ![HTML5 Multimedia](img/html5multimedia.png)
 ## Multimedia
+
+^^
+
+# Most Explored
+
+```html
+<audio src="epic-theme.mp3"></audio>
+```
+
+```html
+<video src="epic-intro.mp4"></video>
+```
+
+## Sunny Fields
+
+^^
+
+# Few Ventured
+## into Unexplored Lands
+
+* `audio.canPlayType()`
+* Programmatic load/play on mobile
+* Codec fallbacks/other shims
+* Multiple audio streams at once
+
+^^
+
+#

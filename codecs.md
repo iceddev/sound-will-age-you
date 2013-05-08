@@ -112,7 +112,7 @@ function load(filename){
 load('epic-theme').play();
 load('sad-song').play();
 ```
-[Fiddle](http://jsfiddle.net/phated/YbjL9/3/)
+[Fiddle](http://jsfiddle.net/phated/YbjL9/8/)
 
 ^^
 

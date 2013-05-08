@@ -70,7 +70,7 @@ audio.addEventListener('error', function(){
   });
 });
 ```
-[Fiddle](http://jsfiddle.net/phated/YbjL9/4)
+[Fiddle](http://jsfiddle.net/phated/YbjL9/4/)
 
 ^^
 
@@ -92,7 +92,7 @@ function setSrc(){
 
 setSrc();
 ```
-[Fiddle](http://jsfiddle.net/phated/YbjL9/2/)
+[Fiddle](http://jsfiddle.net/phated/YbjL9/6/)
 
 ^^
 

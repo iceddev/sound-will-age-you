@@ -61,7 +61,7 @@ sounds.some(function(sound){
 ```javascript
 audio.addEventListener('error', function(){
   sounds = sounds.filter(function(sound){
-    return !new RegExp(sound.filename).test(audio.src);
+    return audio.src.indexOf(sound.filename) < 0;
   });
 
   sounds.some(function(sound){
@@ -70,22 +70,19 @@ audio.addEventListener('error', function(){
   });
 });
 ```
-[Fiddle](http://jsfiddle.net/phated/YbjL9/1)
+[Fiddle](http://jsfiddle.net/phated/YbjL9/4)
 
 ^^
 
 # Maybe Try Probably
 
 ```javascript
-var probably = [], maybe = [];
-
-sounds.forEach(function(sound){
+var sources = sounds.reduce(function(result, sound){
   var canPlay = audio.canPlayType(sound.type);
-  if(canPlay === 'probably') return probably.push(sound.filename);
-  if(canPlay === 'maybe') return maybe.push(sound.filename);
-});
-
-var sources = probably.concat(maybe);
+  if(canPlay === 'probably') result.unshift(sound.filename);
+  if(canPlay === 'maybe') result.push(sound.filename);
+  return result;
+}, []);
 
 audio.addEventListener('error', setSrc);
 

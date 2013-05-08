@@ -96,3 +96,38 @@ function setSrc(){
 setSrc();
 ```
 [Fiddle](http://jsfiddle.net/phated/YbjL9/2/)
+
+^^
+
+# Function-ize
+
+```javascript
+function load(filename){
+  var audio = new Audio();
+  var sounds = [
+    { type: 'audio/mpeg', filename: filename + '.mp3' },
+    { type: 'audio/webm', filename: filename + '.webm' }
+  ];
+  // All That Boilerplate
+  return audio;
+}
+
+load('epic-theme').play();
+load('sad-song').play();
+```
+[Fiddle](http://jsfiddle.net/phated/YbjL9/3/)
+
+^^
+
+## It's My Party And I'll AMD If I Want To
+
+```javascript
+define([
+  'frozen/plugins/loadSound!epic-theme'
+], function(theme){
+
+  theme.play();
+
+});
+```
+[Fiddle](http://jsfiddle.net/phated/PN7EM/)

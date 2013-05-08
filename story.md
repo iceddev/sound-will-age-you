@@ -51,9 +51,9 @@
 # Few Ventured
 ## into Unexplored Lands
 
-* `audio.canPlayType()`
-* Programmatic load/play on mobile
-* Codec fallbacks/other shims
+* Codecs && `audio.canPlayType()`
+* Programmatic load || play on mobile
+* fallbacks/shims
 * Multiple audio streams at once
 
 ^^

@@ -51,6 +51,14 @@ $linkColor: #1F00FF;
 	}
 }
 
+.reveal .loading {
+	img {
+		background: none;
+		border: 0;
+		box-shadow: none;
+	}
+}
+
 .reveal section img {
 	border-radius: 10px;
 }

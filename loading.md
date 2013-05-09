@@ -17,6 +17,8 @@ Sets the paused attribute to false, <div class="fragment grow highlight-green">l
 <img class="fragment" src="img/chrome.png" alt="Chrome" />
 <img class="fragment" src="img/firefox.png" alt="Firefox" />
 <img class="fragment" src="img/ie.png" alt="Internet Explorer" />
+<img class="fragment" src="img/opera.png" alt="Opera" />
+<img class="fragment" src="img/safari.png" alt="Safari" />
 <br />
 <img class="fragment" src="img/no-ios.png" alt="iOS" />
 <img class="fragment" src="img/no-android.png" alt="Android" />

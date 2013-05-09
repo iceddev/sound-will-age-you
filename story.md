@@ -52,7 +52,7 @@
 ## into Unexplored Lands
 
 * Codecs && `audio.canPlayType()`
-* Programmatic load || play on mobile
+* Programmatic play on mobile
 * fallbacks/shims
 * Multiple audio streams at once
 

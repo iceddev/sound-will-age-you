@@ -1,10 +1,17 @@
 # What's Expected?
 
 ## `audio.play()`
+## `audio.load()`
 
 ^^
 
-# media.play()
+## media.load()
+
+Causes the element to reset and start selecting and loading a new media resource from scratch.
+
+[Spec](http://www.w3.org/html/wg/drafts/html/master/embedded-content-0.html#loading-the-media-resource)
+
+## media.play()
 
 Sets the paused attribute to false, <div class="fragment grow highlight-green">loading the media resource</div> and beginning playback if necessary. If the playback had ended, will restart it from the start.
 
@@ -69,13 +76,32 @@ document.addEventListener('touchstart', preloadSound);
 
 ^^
 
-# Now Do This
+# Nothing As It Seems
 
-<h3 class="fragment">For Every Sound</h3>
-<h3 class="fragment">Every Parallel Audio Stream</h3>
-<h2 class="fragment">On Init of Your Game/App</h2>
-<h1 class="fragment">On Mobile</h1>
+TODO: image showing sound loaded
 
 ^^
 
-![NOOOOOPE](img/lana.png)
+# We Can Do Better!
+
+```javascript
+var audio = new Audio();
+
+audio.src = 'epic-theme.mp3';
+
+function preloadSound(){
+  var vol = audio.volume;
+  audio.volume = 0;
+  audio.play();
+  audio.pause();
+  audio.volume = vol;
+  document.removeEventListener('touchstart', preloadSound);
+}
+
+document.addEventListener('touchstart', preloadSound);
+```
+[Fiddle](http://jsfiddle.net/phated/zAuXL/9/)
+
+^^
+
+# But Wait, There's More

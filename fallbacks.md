@@ -74,6 +74,26 @@ audio.play();
 
 ^^
 
+# Volume
+
+## WebAudio
+
+```javascript
+var gainNode = audioContext.createGain();
+source.connect(gainNode);
+gainNode.connect(audioContext.destination);
+
+gainNode.gain.value = 0.5;
+```
+
+## HTML5
+
+```javascript
+audio.volume = 0.5;
+```
+
+^^
+
 # So Complicated
 
 ^^

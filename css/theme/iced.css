@@ -142,13 +142,13 @@ body {
   -o-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
 
+.reveal section img {
+  border-radius: 10px; }
+.reveal ul, .reveal ol {
+  margin-bottom: 1em; }
 .reveal .story h1, .reveal .story h2, .reveal .story h3, .reveal .story h4, .reveal .story h5, .reveal .story h6, .reveal .story p {
   font-family: 'Great Vibes', cursive; }
-
 .reveal .loading img {
   background: none;
   border: 0;
   box-shadow: none; }
-
-.reveal section img {
-  border-radius: 10px; }

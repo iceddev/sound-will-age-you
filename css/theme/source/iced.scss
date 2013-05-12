@@ -45,20 +45,21 @@ $linkColor: #1F00FF;
 @import "../template/theme";
 // ---------------------------------------------
 
-.reveal .story {
-	h1, h2, h3, h4, h5, h6, p {
-		font-family: 'Great Vibes', cursive;
+.reveal {
+	section img {
+		border-radius: 10px;
 	}
-}
-
-.reveal .loading {
-	img {
+	ul, ol {
+		margin-bottom: 1em;
+	}
+	.story {
+		h1, h2, h3, h4, h5, h6, p {
+			font-family: 'Great Vibes', cursive;
+		}
+	}
+	.loading img {
 		background: none;
 		border: 0;
 		box-shadow: none;
 	}
-}
-
-.reveal section img {
-	border-radius: 10px;
 }

@@ -1,5 +1,40 @@
 # Best Foot Forward
 
+<aside class="notes">
+  First implementation of Frozen sound - WebAudio only, otherwise nothing
+</aside>
+
+^^
+
+## Something Right
+
+<ul class="fragment">
+  <li>Started with WebAudio</li>
+</ul>
+
+<h2 class="fragment">Something Horribly Wrong</h2>
+
+<ul class="fragment">
+  <li>Only WebAudio</li>
+</ul>
+
+<aside class="notes">
+  And hope browser support increases
+</aside>
+
+^^
+
+# Browser Support?
+
+![Chrome](img/chrome.png)
+![iOS](img/ios.png)
+
+[Firefox Bug](https://bugzilla.mozilla.org/show_bug.cgi?id=779297) | [Android Bug](https://code.google.com/p/chromium/issues/detail?id=112930)
+
+<aside class="notes">
+  Has been in Chrome since v10, just now getting to iOS and still not in Chrome for Android or Firefox
+</aside>
+
 ^^
 
 # Initialization
@@ -101,3 +136,37 @@ audio.volume = 0.5;
 # Still Better
 
 ^^
+
+# Parallel Sounds
+
+## WebAudio
+
+```javascript
+function play(buffer){
+  var source = audioContext.createBufferSource();
+  source.buffer = buffer;
+  source.connect(audioContext.destination);
+  source.start(0); // source.noteOn(0);
+}
+
+play(audioBuffer);
+```
+
+^^
+
+# Parallel Sounds
+
+## HTML5
+
+```javascript
+function play(master){
+  var audio = new Audio();
+  audio.src = master.currentSrc; // audio.mozLoadFrom(master);
+  audio.play();
+}
+
+play(audio);
+```
+[Ref](http://robert.ocallahan.org/2009/09/mozloadfrom-and-media-cache_21.html)
+
+

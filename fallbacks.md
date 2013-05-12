@@ -24,10 +24,9 @@
 
 ^^
 
-# Browser Support?
+## Browser Support?
 
-![Chrome](img/chrome.png)
-![iOS](img/ios.png)
+![WebAudio Support](img/webaudio_support.png)
 
 [Firefox Bug](https://bugzilla.mozilla.org/show_bug.cgi?id=779297) | [Android Bug](https://code.google.com/p/chromium/issues/detail?id=112930)
 

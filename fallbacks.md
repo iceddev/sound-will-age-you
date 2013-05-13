@@ -134,6 +134,15 @@ audio.volume = 0.5;
 
 # Still Better
 
+* High Performance
+* Low Latency
+* Uses Buffers instead of Resource Loading
+* Mixing, Processing, Filtering
+* Smooth Transitions
+* Sound Creation
+* Modular - Node System
+* Designed for Future Features
+
 ^^
 
 # Parallel Sounds
@@ -148,6 +157,7 @@ function play(buffer){
   source.start(0); // source.noteOn(0);
 }
 
+play(audioBuffer);
 play(audioBuffer);
 ```
 
@@ -165,7 +175,21 @@ function play(master){
 }
 
 play(audio);
+play(audio);
 ```
 [Ref](http://robert.ocallahan.org/2009/09/mozloadfrom-and-media-cache_21.html)
 
 
+Men
+S - 12
+M - 22
+L - 22 + 2 Blaine
+XL - 20 + 1 Luis
+2XL - 12 + 1 Luis
+3XL - 4
+
+Women
+S - 3
+M - 3
+L - 3
+XL - 3

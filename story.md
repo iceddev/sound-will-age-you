@@ -51,10 +51,9 @@
 # Few Ventured
 ## into Unexplored Lands
 
-* Codecs && `audio.canPlayType()`
-* Programmatic play on mobile
-* fallbacks/shims
-* Multiple audio streams at once
+* WebAudio vs HTML5 Audio
+* Codecs
+* Mobile
 
 ^^
 

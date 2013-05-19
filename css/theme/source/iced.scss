@@ -55,11 +55,22 @@ $linkColor: #1F00FF;
 	.story {
 		h1, h2, h3, h4, h5, h6, p {
 			font-family: 'Great Vibes', cursive;
+			line-height: 1.1em;
 		}
 	}
 	.loading img {
 		background: none;
 		border: 0;
 		box-shadow: none;
+	}
+}
+
+#beforeibegan {
+	width: 400px;
+	margin-left: 150px;
+	float: left;
+	~ p {
+		float: right;
+		margin-right: 150px;
 	}
 }

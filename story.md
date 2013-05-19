@@ -57,3 +57,18 @@
 
 ^^
 
+# Dawned
+
+// TODO: Me w/ viking hat
+
+## Adventurer's Gear
+
+^^
+
+# Before I Began
+
+![Daltonius](img/daltonius.png)
+
+^^
+
+# Sound Will <br> Age You

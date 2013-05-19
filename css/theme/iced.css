@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
-@import url(http://fonts.googleapis.com/css?family=Great+Vibes);
+@import url(http://fonts.googleapis.com/css?family=Tangerine);
 /**
  * Default theme for reveal.js.
  *
@@ -147,7 +147,7 @@ body {
 .reveal ul, .reveal ol {
   margin-bottom: 1em; }
 .reveal .story h1, .reveal .story h2, .reveal .story h3, .reveal .story h4, .reveal .story h5, .reveal .story h6, .reveal .story p {
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Tangerine', cursive;
   line-height: 1.1em; }
 .reveal .loading img {
   background: none;
@@ -155,9 +155,9 @@ body {
   box-shadow: none; }
 
 #beforeibegan {
-  width: 400px;
-  margin-left: 150px;
+  width: 300px;
+  margin-left: 200px;
   float: left; }
   #beforeibegan ~ p {
     float: right;
-    margin-right: 150px; }
+    margin-right: 200px; }

@@ -36,6 +36,16 @@
 
 ^^
 
+# Falling Back
+
+## What Do We Get?
+
+* High Performance
+* Low Latency
+* Uses Buffers instead of Resource Loading
+
+^^
+
 # Initialization
 
 ## WebAudio
@@ -132,11 +142,8 @@ audio.volume = 0.5;
 
 ^^
 
-# Still Better
+# Extras!
 
-* High Performance
-* Low Latency
-* Uses Buffers instead of Resource Loading
 * Mixing, Processing, Filtering
 * Smooth Transitions
 * Sound Creation
@@ -145,36 +152,14 @@ audio.volume = 0.5;
 
 ^^
 
-# Parallel Sounds
-
-## WebAudio
+# Make a Sound!
 
 ```javascript
-function play(buffer){
-  var source = audioContext.createBufferSource();
-  source.buffer = buffer;
-  source.connect(audioContext.destination);
-  source.start(0); // source.noteOn(0);
-}
+var context = new webkitAudioContext();
+var sineWave = context.createOscillator();
 
-play(audioBuffer);
-play(audioBuffer);
+sineWave.connect(context.destination);
+
+sineWave.start(0);
 ```
-
-^^
-
-# Parallel Sounds
-
-## HTML5
-
-```javascript
-function play(master){
-  var audio = new Audio();
-  audio.src = master.currentSrc; // audio.mozLoadFrom(master);
-  audio.play();
-}
-
-play(audio);
-play(audio);
-```
-[Ref](http://robert.ocallahan.org/2009/09/mozloadfrom-and-media-cache_21.html)
+[Fiddle](http://jsfiddle.net/phated/WhUbJ/)

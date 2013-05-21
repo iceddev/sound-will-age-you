@@ -29,9 +29,10 @@
 7. Conclusion
 	* Much Better than Before
 	* Why we need good sound
+	* Reasons to Start With Web Audio & Fallback to HTML5 Audio
 		* Including reasons to support WebAudio API in abstractions
 		* Reasons to not include fallback to Flash
+		* WebAudio support - link to issues / places to get involved
 	* Still have areas to improve
 		* Mobile - link to issues / places to get involved
-		* WebAudio support - link to issues / places to get involved
 	* Honorable mentions to libraries that support WebAudio (& HTML5)? (No flash?)

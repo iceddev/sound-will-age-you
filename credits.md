@@ -1,14 +1,16 @@
-* HTML5 Logo: http://www.w3.org/html/logo/
-* Sword: http://pixabay.com/
-* Lana Kane - Nope: http://mlkshk.com/p/DN2E
+# More Resources
 
-* Chrome, Firefox, IE, Opera, Safari: https://github.com/paulirish/browser-logos
-* Android: http://developer.android.com/distribute/googleplay/promote/brand.html
-* iOS Safari: http://www.wikihow.com/Change-the-Safari-Icon-on-iOS-4
-* Android+FF, FirefoxOS: http://www.mozilla.org/en-US/firefox/partners/
+* [Web Audio Intro](http://www.html5rocks.com/en/tutorials/webaudio/intro/)
+* [Web Audio in Games](http://www.html5rocks.com/en/tutorials/webaudio/games/)
 
-<!-- Image By: [Tutorialdock](http://www.iconspedia.com/icon/html5-logos-multimedia-icon-24190.html) -->
+--
 
-<aside class="notes">
-  Testing notes
-</aside>
+# Images
+
+* [HTML5 Logo](http://www.w3.org/html/logo/)
+* [Sword](http://pixabay.com/)
+
+* [Chrome, Firefox, IE, Opera, Safari](https://github.com/paulirish/browser-logos)
+* [Android](http://developer.android.com/distribute/googleplay/promote/brand.html)
+* [iOS Safari](http://www.wikihow.com/Change-the-Safari-Icon-on-iOS-4)
+* [Android+FF, FirefoxOS](http://www.mozilla.org/en-US/firefox/partners/)

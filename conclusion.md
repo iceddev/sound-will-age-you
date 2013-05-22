@@ -32,7 +32,7 @@
 
 # Don't Fallback to Flash
 
-* Does it give us anything more than HTML5 Audio?
+* Does it give us anything more than Web Audio?
 * Poor support (especially on mobile)
 * Resource hog
 
@@ -50,12 +50,23 @@
 
 * Mobile: [Android](https://code.google.com/p/chromium/issues/detail?id=178297) | [iOS](http://developer.apple.com/library/safari/#documentation/AudioVideo/Conceptual/Using_HTML5_Audio_Video/Device-SpecificConsiderations/Device-SpecificConsiderations.html)
 * `canPlayType` & string comparison?
-* Better abstractions
+* Better abstractions & fallbacks
 
 ^^
 
-# Notable Abstractions
+# Web Audio Abstractions
+
+* [Howler.js](https://github.com/goldfire/howler.js)
+* [WebAudio.js](http://jeromeetienne.github.io/webaudio.js/)
+* [WAAPISim](http://www.g200kg.com/docs/waapisim/)
+* [Audiolet](https://github.com/oampo/Audiolet)
+* [audiolib.js](http://audiolibjs.org/)
+
+^^
+
+# Game Sounds w/ Fallbacks
 
 * [Frozen](http://frozenjs.com)
-* [SoundJS by CreateJS](https://github.com/CreateJS/SoundJS)
+* [SoundJS](https://github.com/CreateJS/SoundJS)
 * [Quintus](https://github.com/cykod/Quintus/blob/master/lib/quintus_audio.js)
+* [Audia](https://github.com/mandarinx/audia)

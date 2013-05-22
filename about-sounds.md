@@ -1,9 +1,3 @@
-# Briefly, Games
-
-![Frozen JS](img/frozen.png)
-
-^^
-
 # Sounds are Important
 
 ^^
@@ -19,6 +13,12 @@
 ^^
 
 # Sounds are Hard
+
+^^
+
+# My Perspective
+
+![Frozen JS](img/frozen.png)
 
 ^^
 

@@ -65,7 +65,7 @@
 
 --
 
-# Before I Began
+# Before My Quest Began
 
 ![Daltonius](img/daltonius.png)
 

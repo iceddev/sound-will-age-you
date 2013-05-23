@@ -154,10 +154,10 @@ body {
   border: 0;
   box-shadow: none; }
 
-#beforeibegan {
+#beforemyquestbegan {
   width: 300px;
   margin-left: 200px;
   float: left; }
-  #beforeibegan ~ p {
+  #beforemyquestbegan ~ p {
     float: right;
     margin-right: 200px; }

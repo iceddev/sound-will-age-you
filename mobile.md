@@ -76,9 +76,15 @@ document.addEventListener('touchstart', preloadSound);
 
 --
 
-# Nothing As It Seems
+## All Is Good
 
-TODO: image showing sound loaded
+![Chrome Load Workaround](img/chrome_load1.png)
+
+--
+
+## Nothing As It Seems
+
+![Chrome Load Workaround Fail](img/chrome_load2.png)
 
 --
 
@@ -101,6 +107,12 @@ function preloadSound(){
 document.addEventListener('touchstart', preloadSound);
 ```
 [Fiddle](http://jsfiddle.net/phated/zAuXL/9/)
+
+--
+
+## Solved?
+
+![Chrome Play Workaround](img/chrome_play.png)
 
 --
 

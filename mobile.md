@@ -104,4 +104,6 @@ document.addEventListener('touchstart', preloadSound);
 
 --
 
-# But Wait, There's More
+# A New Hope
+
+![chrome://flags](img/chrome_flags.png)

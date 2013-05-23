@@ -4,7 +4,7 @@
   First implementation of Frozen sound - WebAudio only, otherwise nothing
 </aside>
 
-^^
+--
 
 ## Something Right
 
@@ -22,7 +22,7 @@
   And hope browser support increases
 </aside>
 
-^^
+--
 
 ## Browser Support?
 
@@ -34,7 +34,7 @@
   Has been in Chrome since v10, just now getting to iOS and still not in Chrome for Android or Firefox
 </aside>
 
-^^
+--
 
 # Falling Back
 
@@ -44,7 +44,7 @@
 * Low Latency
 * Uses Buffers instead of Resource Loading
 
-^^
+--
 
 # Initialization
 
@@ -63,7 +63,7 @@ if(window.AudioContext){
 var audio = new Audio();
 ```
 
-^^
+--
 
 # Loading
 
@@ -87,7 +87,7 @@ if(audioContext){
 }
 ```
 
-^^
+--
 
 # Loading
 
@@ -97,7 +97,7 @@ if(audioContext){
 audio.src = 'epic-theme.mp3';
 ```
 
-^^
+--
 
 # Playing
 
@@ -116,7 +116,7 @@ source.start(0); // source.noteOn(0);
 audio.play();
 ```
 
-^^
+--
 
 # Volume
 
@@ -136,11 +136,11 @@ gainNode.gain.value = 0.5;
 audio.volume = 0.5;
 ```
 
-^^
+--
 
 # So Complicated
 
-^^
+--
 
 # Extras!
 
@@ -150,7 +150,7 @@ audio.volume = 0.5;
 * Modular - Node System
 * Designed for Future Features
 
-^^
+--
 
 # Make a Sound!
 

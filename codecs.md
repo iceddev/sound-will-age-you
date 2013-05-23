@@ -2,7 +2,7 @@
 
 ![Codec Support](img/codecs.png)
 
-^^
+--
 
 # canPlayType
 
@@ -19,7 +19,7 @@ audio.canPlayType('audio/obscure-type');
 ```
 * Chrome on OSX
 
-^^
+--
 
 # Full Browser Support
 
@@ -34,7 +34,7 @@ audio.canPlayType('audio/obscure-type');
   * Opera
   * Chrome, Safari also support these
 
-^^
+--
 
 # Which File?
 
@@ -54,7 +54,7 @@ sounds.some(function(sound){
 ```
 [Fiddle](http://jsfiddle.net/phated/YbjL9/)
 
-^^
+--
 
 # Don't Silence Me, Bro
 
@@ -72,7 +72,7 @@ audio.addEventListener('error', function(){
 ```
 [Fiddle](http://jsfiddle.net/phated/YbjL9/4/)
 
-^^
+--
 
 # Maybe Try Probably
 
@@ -94,7 +94,7 @@ setSrc();
 ```
 [Fiddle](http://jsfiddle.net/phated/YbjL9/6/)
 
-^^
+--
 
 # Function-ize
 
@@ -114,7 +114,7 @@ load('sad-song').play();
 ```
 [Fiddle](http://jsfiddle.net/phated/YbjL9/8/)
 
-^^
+--
 
 ## It's My Party And I'll AMD If I Want To
 

@@ -3,7 +3,7 @@
 ## `audio.play()`
 ## `audio.load()`
 
-^^
+--
 
 ## media.load()
 
@@ -17,7 +17,7 @@ Sets the paused attribute to false, <div class="fragment grow highlight-green">l
 
 [Spec](http://www.w3.org/html/wg/drafts/html/master/embedded-content-0.html#playing-the-media-resource)
 
-^^
+--
 
 ## Don't Need No Stinkin' Spec
 
@@ -32,7 +32,7 @@ Sets the paused attribute to false, <div class="fragment grow highlight-green">l
 <img class="fragment" src="img/androidfirefox.png" alt="Firefox for Android" />
 <img class="fragment" src="img/firefoxos.png" alt="FirefoxOS" />
 
-^^
+--
 
 # Excuses, Excuses
 
@@ -42,7 +42,7 @@ unless the play() or load() method is triggered by user action. In other words, 
 
 [Source](http://developer.apple.com/library/safari/#documentation/AudioVideo/Conceptual/Using_HTML5_Audio_Video/Device-SpecificConsiderations/Device-SpecificConsiderations.html)
 
-^^
+--
 
 # On the Bandwagon
 
@@ -50,13 +50,13 @@ unless the play() or load() method is triggered by user action. In other words, 
 
 [Source](https://code.google.com/p/chromium/issues/detail?id=138132#c6)
 
-^^
+--
 
 # Meanwhile
 
 We can download terabytes of images without any restrictions
 
-^^
+--
 
 # Workaround
 
@@ -74,13 +74,13 @@ document.addEventListener('touchstart', preloadSound);
 ```
 [Fiddle](http://jsfiddle.net/phated/zAuXL/)
 
-^^
+--
 
 # Nothing As It Seems
 
 TODO: image showing sound loaded
 
-^^
+--
 
 # We Can Do Better!
 
@@ -102,6 +102,6 @@ document.addEventListener('touchstart', preloadSound);
 ```
 [Fiddle](http://jsfiddle.net/phated/zAuXL/9/)
 
-^^
+--
 
 # But Wait, There's More

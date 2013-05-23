@@ -1,13 +1,13 @@
 # Gather Around
 
-^^
+--
 
 # In Ancient Times
 ![Proprietary Ones](img/proprietaryones.png)
 
 ## The Proprietary Ones
 
-^^
+--
 
 # Horrible Things
 
@@ -21,18 +21,18 @@
 </object>
 ```
 
-^^
+--
 
 ![HTML Warriors](img/html5warrior.png)
 # Warriors
 
-^^
+--
 
 # Delivered Unto Us
 ![HTML5 Multimedia](img/html5multimedia.png)
 ## Multimedia
 
-^^
+--
 
 # Most Explored
 
@@ -46,7 +46,7 @@
 
 ## Sunny Fields
 
-^^
+--
 
 # Few Ventured
 ## into Unexplored Lands
@@ -55,7 +55,7 @@
 * Codecs
 * Mobile
 
-^^
+--
 
 # Donned
 
@@ -63,12 +63,12 @@
 
 ## Adventurer's Gear
 
-^^
+--
 
 # Before I Began
 
 ![Daltonius](img/daltonius.png)
 
-^^
+--
 
 # Sound Will Age You

@@ -2,7 +2,7 @@
 
 ## Much Better than Before
 
-^^
+--
 
 # Why We Need Sound
 
@@ -10,7 +10,7 @@
 * Feedback
 * Brand Recognition
 
-^^
+--
 
 # Start with Web Audio
 
@@ -19,7 +19,7 @@
 * Filters
 * Spatial Sounds
 
-^^
+--
 
 # Fallback to HTML5 Audio
 
@@ -28,7 +28,7 @@
 * Unfortunately, Not Low Latency
 * Also, no effects
 
-^^
+--
 
 # Don't Fallback to Flash
 
@@ -36,7 +36,7 @@
 * Poor support (especially on mobile)
 * Resource hog
 
-^^
+--
 
 # Push Web Audio Instead
 
@@ -44,7 +44,7 @@
 |
 [Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=779297)
 
-^^
+--
 
 # Still Need to Improve
 
@@ -52,7 +52,7 @@
 * `canPlayType` & string comparison?
 * Better abstractions & fallbacks
 
-^^
+--
 
 # Web Audio Abstractions
 
@@ -62,7 +62,7 @@
 * [Audiolet](https://github.com/oampo/Audiolet)
 * [audiolib.js](http://audiolibjs.org/)
 
-^^
+--
 
 # Game Sounds w/ Fallbacks
 

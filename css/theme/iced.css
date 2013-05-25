@@ -150,6 +150,14 @@ body {
   font-family: 'Tangerine', cursive;
   line-height: 1.1em; }
 
+#donnedadventurersgear {
+  width: 500px;
+  margin-right: 50px;
+  float: right; }
+  #donnedadventurersgear ~ p {
+    float: left;
+    margin-left: 50px; }
+
 #beforemyquestbegan {
   width: 300px;
   margin-left: 200px;

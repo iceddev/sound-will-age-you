@@ -59,6 +59,16 @@ $linkColor: #1F00FF;
 	}
 }
 
+#donnedadventurersgear {
+	width: 500px;
+	margin-right: 50px;
+	float: right;
+	~ p {
+		float: left;
+		margin-left: 50px;
+	}
+}
+
 #beforemyquestbegan {
 	width: 300px;
 	margin-left: 200px;

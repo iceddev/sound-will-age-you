@@ -57,17 +57,19 @@
 
 --
 
-# Donned
+# Donned Adventurer's Gear
 
-// TODO: Me w/ viking hat
-
-## Adventurer's Gear
+![Viking Blaine](img/adventures_gear.jpg)
 
 --
 
 # Before My Quest Began
 
 ![Daltonius](img/daltonius.png)
+
+<aside class="notes">
+  Before my quest had even begun
+</aside>
 
 --
 

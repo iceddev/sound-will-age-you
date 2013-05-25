@@ -36,13 +36,19 @@
 
 --
 
-# Falling Back
+# Start with WebAudio
 
 ## What Do We Get?
 
 * High Performance
 * Low Latency
 * Uses Buffers instead of Resource Loading
+
+--
+
+# But Fall Back
+
+## Browser support
 
 --
 

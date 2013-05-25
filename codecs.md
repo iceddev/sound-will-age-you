@@ -56,7 +56,7 @@ sounds.some(function(sound){
 
 --
 
-# Don't Silence Me, Bro
+# Don't Silence Me
 
 ```javascript
 audio.addEventListener('error', function(){

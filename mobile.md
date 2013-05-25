@@ -13,7 +13,7 @@ Causes the element to reset and start selecting and loading a new media resource
 
 ## media.play()
 
-Sets the paused attribute to false, <div class="fragment grow highlight-green">loading the media resource</div> and beginning playback if necessary. If the playback had ended, will restart it from the start.
+Sets the paused attribute to false, <div class="fragment grow highlight-red">loading the media resource</div> and beginning playback if necessary. If the playback had ended, will restart it from the start.
 
 [Spec](http://www.w3.org/html/wg/drafts/html/master/embedded-content-0.html#playing-the-media-resource)
 
@@ -36,8 +36,8 @@ Sets the paused attribute to false, <div class="fragment grow highlight-green">l
 
 # Excuses, Excuses
 
-"In Safari on iOS (for all devices, including iPad), where the user may be on a cellular network and be charged per data unit, <span class="fragment highlight-green">preload and autoplay are disabled.</span>
-No data is loaded until the user initiates it. This means the <span class="fragment highlight-green">JavaScript play() and load() methods are also inactive until the user initiates playback,</span>
+"In Safari on iOS (for all devices, including iPad), where the user may be on a cellular network and be charged per data unit, <span class="fragment highlight-red">preload and autoplay are disabled.</span>
+No data is loaded until the user initiates it. This means the <span class="fragment highlight-red">JavaScript play() and load() methods are also inactive until the user initiates playback,</span>
 unless the play() or load() method is triggered by user action. In other words, a user-initiated Play button works, but an onLoad="play()" event does not."
 
 [Source](http://developer.apple.com/library/safari/#documentation/AudioVideo/Conceptual/Using_HTML5_Audio_Video/Device-SpecificConsiderations/Device-SpecificConsiderations.html)

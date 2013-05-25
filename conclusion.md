@@ -44,6 +44,8 @@
 |
 [Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=779297)
 
+_Enable in chrome://flags in Chrome Beta for Android_
+
 --
 
 # Still Need to Improve

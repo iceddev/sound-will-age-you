@@ -158,14 +158,12 @@ audio.volume = 0.5;
 
 --
 
-# Make a Sound!
+# Turn This
 
-```javascript
-var context = new webkitAudioContext();
-var sineWave = context.createOscillator();
+![Synth](img/large_synth.jpg)
 
-sineWave.connect(context.destination);
+--
 
-sineWave.start(0);
-```
-[Fiddle](http://jsfiddle.net/phated/WhUbJ/)
+# Into This
+
+![Browser Synth](img/browser_synth.png)

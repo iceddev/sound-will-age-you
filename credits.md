@@ -35,6 +35,9 @@
 * [HTML5 Logo](http://www.w3.org/html/logo/)
 * [Sword](http://pixabay.com/)
 
+* [Synthesizer](http://media.soundonsound.com/sos/jul10/images/Polivoks_01.jpg)
+* [Browser Synth](http://midiwasynth.appspot.com/)
+
 * [Chrome, Firefox, IE, Opera, Safari](https://github.com/paulirish/browser-logos)
 * [Android](http://developer.android.com/distribute/googleplay/promote/brand.html)
 * [iOS Safari](http://www.wikihow.com/Change-the-Safari-Icon-on-iOS-4)

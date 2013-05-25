@@ -161,3 +161,11 @@ body {
   #beforemyquestbegan ~ p {
     float: right;
     margin-right: 200px; }
+
+.reveal .roll span {
+  color: #fff;
+  background: #1600b3; }
+
+.reveal .slides section .fragment.highlight-red.visible {
+  color: #fff;
+  background: #ff0000; }

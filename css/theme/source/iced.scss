@@ -75,3 +75,13 @@ $linkColor: #1F00FF;
 		margin-right: 200px;
 	}
 }
+
+.reveal .roll span {
+	color: #fff;
+	background: darken( $linkColor, 15% );
+}
+
+.reveal .slides section .fragment.highlight-red.visible {
+	color: #fff;
+	background: #ff0000;
+}

@@ -35,7 +35,6 @@ $linkColor: #1F00FF;
 
 // Background generator
 @mixin bodyBackground() {
-  // @include radial-gradient( rgba(28,30,32,1), rgba(85,90,95,1) );
 	@include radial-gradient( lighten(rgba(16,183,251,1), 10%), darken(rgba(16,183,251,1), 20%) );
 }
 
@@ -55,14 +54,8 @@ $linkColor: #1F00FF;
 	.story {
 		h1, h2, h3, h4, h5, h6, p {
 			font-family: 'Tangerine', cursive;
-			// font-family: 'Great Vibes', cursive;
 			line-height: 1.1em;
 		}
-	}
-	.loading img {
-		background: none;
-		border: 0;
-		box-shadow: none;
 	}
 }
 

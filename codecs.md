@@ -46,6 +46,7 @@ var sounds = [
   { type: 'audio/webm', filename: 'epic-theme.webm' }
 ];
 
+// Try the first sound that doesn't return ''
 sounds.some(function(sound){
   return audio.canPlayType(sound.type) && (audio.src = sound.filename);
 });
@@ -60,10 +61,12 @@ sounds.some(function(sound){
 
 ```javascript
 audio.addEventListener('error', function(){
+  // Filter the current sound from list
   sounds = sounds.filter(function(sound){
     return audio.src.indexOf(sound.filename) < 0;
   });
 
+  // Try the next sound that doesn't return ''
   sounds.some(function(sound){
     return audio.canPlayType(sound.type)
       && (audio.src = sound.filename);
@@ -79,13 +82,16 @@ audio.addEventListener('error', function(){
 ```javascript
 var sources = sounds.reduce(function(result, sound){
   var canPlay = audio.canPlayType(sound.type);
+  // Unshift the probablies onto beginning of the array
   if(canPlay === 'probably') result.unshift(sound.filename);
+  // Push the maybes onto the end of the array
   if(canPlay === 'maybe') result.push(sound.filename);
   return result;
 }, []);
 
 audio.addEventListener('error', setSrc);
 
+// Use the first sound on the array - probablies before maybes
 function setSrc(){
   sources.length && (audio.src = sources.shift());
 }
@@ -101,6 +107,7 @@ setSrc();
 ```javascript
 function load(filename){
   var audio = new Audio();
+  // Replace static filenames with the variable passed in
   var sounds = [
     { type: 'audio/mpeg', filename: filename + '.mp3' },
     { type: 'audio/webm', filename: filename + '.webm' }
@@ -123,8 +130,21 @@ define([
   'frozen/plugins/loadSound!epic-theme'
 ], function(theme){
 
+  // theme will be a Sound object based on Web Audio,
+  // HTML5 Audio, or stubbed out if neither available
+  // It will also try to use the best available codec
+
   theme.play();
 
 });
 ```
 [Fiddle](http://jsfiddle.net/phated/PN7EM/)
+
+<aside class="notes">
+  Frozen uses AMD plugins to make loading and using resources easier <br>
+  Can pass a filename without extension - auto determine which codec to use <br>
+  Also determines if WebAudio is available - defaults to that <br>
+  Then HTML5 Audio <br>
+  Otherwise stubbed out sound <br>
+  A lot of these headaches are already abstracted away from you
+</aside>

@@ -42,3 +42,14 @@
 * [Android](http://developer.android.com/distribute/googleplay/promote/brand.html)
 * [iOS Safari](http://www.wikihow.com/Change-the-Safari-Icon-on-iOS-4)
 * [Android+FF, FirefoxOS](http://www.mozilla.org/en-US/firefox/partners/)
+
+--
+
+# @BlaineBublitz
+
+* [phated](https://github.com/phated) (github.com/phated)
+* [@IcedDev](http://iceddev.com) (iceddev.com)
+* [Frozen](http://frozenjs.com) (frozenjs.com)
+* [hackPHX](http://hackphx.com) (hackphx.com)
+
+## Slides available at blog.iceddev.com/sound-will-age-you

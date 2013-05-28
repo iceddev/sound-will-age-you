@@ -4,13 +4,17 @@ _Yay Buzzwords_
 
 --
 
-# Back to Games
+# Audio Streams
 
-## Complex Audio Streams
+* Layering of Sounds
+* Complex Audio Streams
 
---
-
-# Layering of Sounds
+<aside class="notes">
+  For games, we want to use multiple layers of sounds <br>
+  Background track, clock ticking in the corner, footsteps, gun firing <br>
+  Achieve immersion <br>
+  Need these complex audio streams
+</aside>
 
 --
 

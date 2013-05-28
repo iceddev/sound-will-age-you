@@ -1,7 +1,7 @@
 # Best Foot Forward
 
 <aside class="notes">
-  First implementation of Frozen sound - WebAudio only, otherwise nothing
+  First implementation of Sound in Frozen - WebAudio only, otherwise nothing
 </aside>
 
 --
@@ -80,9 +80,10 @@ var audioBuffer;
 if(audioContext){
   var request = new XMLHttpRequest();
   request.open('GET', 'epic-theme.mp3', true);
-  request.responseType = 'arraybuffer';
+  request.responseType = 'arraybuffer'; // Need to get an ArrayBuffer
 
   function decodeAudioData(e){
+    // async decode
     audioContext.decodeAudioData(e.target.response, function(buffer){
       audioBuffer = buffer;
     }, onError);
@@ -110,9 +111,10 @@ audio.src = 'epic-theme.mp3';
 ## WebAudio
 
 ```javascript
+// Place to attach our buffer
 var source = audioContext.createBufferSource();
 source.buffer = audioBuffer;
-source.connect(audioContext.destination);
+source.connect(audioContext.destination); // destination = output
 source.start(0); // source.noteOn(0);
 ```
 
@@ -131,9 +133,10 @@ audio.play();
 ```javascript
 var gainNode = audioContext.createGain();
 source.connect(gainNode);
+// Connect gainNode to destination instead of source
 gainNode.connect(audioContext.destination);
 
-gainNode.gain.value = 0.5;
+gainNode.gain.value = 0.5; // Change gain (volume)
 ```
 
 ## HTML5
